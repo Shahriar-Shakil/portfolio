@@ -413,10 +413,14 @@ footer .footer-below {
  }
 
 
-@media  (max-width:768) {
-.about-me-paragraph{
-
- }
+ @media (max-width: 576px) { 
+  [class*="col-"] {
+    width: 100%;
+}
+.banner-text{
+  max-width: 100%;
+  
+}
 
  /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... } */
