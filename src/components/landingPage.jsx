@@ -18,23 +18,44 @@ class LandingPage extends Component {
                     <hr className="star-light" />
                     <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJs</p>
                <div className="social-link">
-                
+                <ul className="flex-container">
                 {/* GitHub */}
-                <a className="" href="https://github.com/Shahriar-Shakil" rel="noopener noreferrer" target="_blank">
+                    <li className="flex-item">
+                    <a className="" href="https://github.com/Shahriar-Shakil" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-github" aria-hidden="true"/>
                 </a>
-                {/* LinkedIn */}
+                    </li>
+                    <li className="flex-item">
+                     {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/shahriar-shakil/" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-linkedin" aria-hidden="true"/>
                 </a>
-                {/* Freecodecamp */}
+                    </li>
+                    <li className="flex-item">
+                     {/* Freecodecamp */}
                 <a href="https://www.freecodecamp.org/shahriar-shakil" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-free-code-camp" aria-hidden="true"/>
                 </a>
-                {/* codepen */}
+                    </li>
+                    <li className="flex-item">
+                    {/* codepen */}
                 <a href="https://codepen.io/shahriar-shakil/#" rel="noopener noreferrer" target="_blank">
                 <i className="fab fa-codepen" aria-hidden="true"/>
                 </a>
+                    </li>
+                    <li className="flex-item">
+                     {/* codepen */}
+                <a href="https://codepen.io/shahriar-shakil/#" rel="noopener noreferrer" target="_blank">
+                <i className="fab fa-codepen" aria-hidden="true"/>
+                </a>
+                    </li>
+                </ul>
+                
+                
+               
+               
+                
+               
                </div>
                 </div>
             </Cell> 
