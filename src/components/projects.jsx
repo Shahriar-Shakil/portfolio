@@ -18,8 +18,8 @@ class Projects extends Component {
             img="https://i.postimg.cc/9X6csvTZ/asset2.png"
             title="Portfolio"
             description=""
-            git="https://github.com/Shahriar-Shakil/first-resume.git"
-            demo="https://pensive-einstein-1f0c4f.netlify.com/"
+            git="https://github.com/Shahriar-Shakil/portfolio.git"
+            demo="https://shahriar.netlify.com"
             />
       </div>
       <div className="col-md-4">
