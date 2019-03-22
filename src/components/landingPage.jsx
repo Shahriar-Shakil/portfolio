@@ -6,13 +6,14 @@ class LandingPage extends Component {
         return ( 
             <div id={this.props.id} style={{width: '100%', margin: 'auto'}}>
          <Grid className="landing-grid">
-            <Cell col={12}>
+            <div className="col-md-12">
                 <img 
                 src={this.props.img}
                 alt="avatar"
                 className="avatar-img px-3"
                 />
-                <div className="banner-text ">
+                </div>
+                <div className="banner-text p-3">
                     <h1>Front-End Web Developer</h1>
                    
                     <hr className="star-light" />
@@ -43,12 +44,7 @@ class LandingPage extends Component {
                 <i className="fab fa-codepen" aria-hidden="true"/>
                 </a>
                     </li>
-                    <li className="flex-item">
-                     {/* codepen */}
-                <a href="https://codepen.io/shahriar-shakil/#" rel="noopener noreferrer" target="_blank">
-                <i className="fab fa-codepen" aria-hidden="true"/>
-                </a>
-                    </li>
+                   
                 </ul>
                 
                 
@@ -58,7 +54,7 @@ class LandingPage extends Component {
                
                </div>
                 </div>
-            </Cell> 
+            
          </Grid>
          </div>
          );

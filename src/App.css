@@ -116,7 +116,7 @@ padding: 20px;
   border-radius: 10px;
   position: relative;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 55%;
   height: inherit;
 }
 .banner-text h1 {
@@ -161,6 +161,9 @@ font-size: 55px;
 color: #473be7;
 
 
+}
+.flex-container li{
+  margin-bottom:1rem;
 }
 .flex-item:hover{
   background-color: #dedee4;
