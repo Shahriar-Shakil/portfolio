@@ -55,16 +55,23 @@ nav{
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
 }
+
 .nav li{
   color:#FFFFFF !important;
-  font-weight: bold
+  font-weight: bold;
+  
 }
+
 .nav li:hover{
   color: #523FCA !important;
 }
 
 li>.active {
   border-bottom: 2px solid rgb(240, 158, 6);
+}
+.resume{
+  color:#FFFFFF !important;
+  font-weight: bold;
 }
 .navbar-toggler{
   color:white;
@@ -258,24 +265,22 @@ color: white;
 /* about page */
 
 
-.about{
+#about{
   background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
 color: white;
-padding: 100px 0;
 
-max-width: 100%;
+}
+.about{
+
 }
   .about h2{
     font-size: 3em;
   }
 
-.about-text{
-  margin-left: 16.66666667%;
-  
-}
 .about-me-paragraph{
-  font-size:7vh;
-  text-align: justify
+  font-size:1.8rem;
+  text-align: justify;
+  
 }
 /* resume */
 .resume-right-col{
@@ -404,16 +409,12 @@ footer .footer-below {
 
 
 .about-me-paragraph{
-  width: 100%;
-  position: relative;
-  left:-25px;
-  font-size: 5vw;
-  text-align: justify;
+  font-size: 1.3rem
 }
  }
 
 
- @media (max-width: 576px) { 
+ /* @media (max-width: 576px) { 
   [class*="col-"] {
     width: 100%;
 }
@@ -421,6 +422,9 @@ footer .footer-below {
   max-width: 100%;
   
 }
-
+.navbar-header{
+  
+}
+ } */
  /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... } */

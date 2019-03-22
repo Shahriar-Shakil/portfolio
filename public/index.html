@@ -69,6 +69,27 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+
+
+
+
+</script>
+<script>
+   $(document).ready( function() {
+    /* Check width on page load*/
+    if ( $(window).width() < 340) {
+     $('#nav-brand').removeClass('navbar-brand');
+    }
+    else {}
+ });
+ $(window).resize(function() {
+    /*If browser resized, check width again */
+    if ($(window).width() > 340) {
+     $('#nav-brand').addClass('navbar-brand');
+    }
+    else {$('#nav-brand').removeClass('navbar-brand');}
+ });
 </script>
   </body>
 </html>
