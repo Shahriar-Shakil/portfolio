@@ -415,7 +415,11 @@ footer .footer-below {
   font-size: 1.3rem
 }
  }
-
+ @media (max-width: 360px){
+  .about-me-paragraph{
+    font-size: 1rem
+  }
+ }
 
  /* @media (max-width: 576px) { 
   [class*="col-"] {
