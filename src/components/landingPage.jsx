@@ -10,7 +10,7 @@ class LandingPage extends Component {
                 <img 
                 src={this.props.img}
                 alt="avatar"
-                className="avatar-img px-3"
+                className="avatar-img "
                 />
                 </div>
                 <div className="banner-text p-3">
