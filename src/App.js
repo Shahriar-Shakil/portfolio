@@ -4,7 +4,6 @@ import Navbar from './components/navbar'
 import About from './components/about'
 import LandingPage from './components/landingPage'
 import Projects from './components/projects'
-import Resume from './components/resume/resume'
 import Contact from './components/contact'
 import Footer from './components/footer'
 
@@ -21,23 +20,23 @@ class App extends Component {
       <About
       id="about"
       />
-      {/* <Resume 
+      {/* <Resume
       id="resume"
       /> */}
       <Contact id="contact"/>
       <Footer />
-     
- {/* <Section 
+
+ {/* <Section
  title="section 2"
  id="section2"
  />
- <Section 
+ <Section
  title="section 3"
  id="section3"
  /> */}
       </div>
-     
-     
+
+
     );
   }
 }
