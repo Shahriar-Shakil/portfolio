@@ -13,6 +13,14 @@ class Projects extends Component {
             </div>
         </div>
         <div className="row">
+        <div className="col-md-4">
+            <ProjectItem 
+            img="https://i.postimg.cc/Kcghw8vc/Screenshot-3.png"
+            title="City Tours"
+            description=""
+            git="https://github.com/Shahriar-Shakil/city-tour-app"
+            demo="https://citytoursreact.netlify.com"/>
+      </div>
             <div className="col-md-4">
             <ProjectItem 
             img="https://i.postimg.cc/9X6csvTZ/asset2.png"
@@ -31,14 +39,7 @@ class Projects extends Component {
             demo="https://serene-austin-ed8ae7.netlify.com/"
             />
       </div>
-      <div className="col-md-4">
-            <ProjectItem 
-            img="https://i.postimg.cc/tRZXSX19/asset6.png"
-            title="Pomodoro Clock"
-            description=""
-            git="https://codepen.io/shahriar-shakil/pen/RvMLrg"
-            demo="https://codepen.io/shahriar-shakil/pen/RvMLrg"/>
-      </div>
+      
       {/* second row */}
             </div>
             <div className="row">
@@ -78,6 +79,15 @@ class Projects extends Component {
             git="https://codepen.io/shahriar-shakil/pen/MLOKog"
             demo="https://codepen.io/shahriar-shakil/pen/MLOKog"/>
       </div>
+      <div className="col-md-4">
+            <ProjectItem 
+            img="https://i.postimg.cc/tRZXSX19/asset6.png"
+            title="Pomodoro Clock"
+            description=""
+            git="https://codepen.io/shahriar-shakil/pen/RvMLrg"
+            demo="https://codepen.io/shahriar-shakil/pen/RvMLrg"/>
+      </div>
+     
       </div>
             
 
