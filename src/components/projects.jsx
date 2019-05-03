@@ -23,12 +23,11 @@ class Projects extends Component {
       </div>
             <div className="col-md-4">
             <ProjectItem 
-            img="https://i.postimg.cc/9X6csvTZ/asset2.png"
-            title="Portfolio"
+            img="https://i.postimg.cc/sgZXzPKL/Screenshot-4.png"
+            title="React-phone-store"
             description=""
-            git="https://github.com/Shahriar-Shakil/portfolio.git"
-            demo="https://shahriar.netlify.com"
-            />
+            git="https://github.com/Shahriar-Shakil/react-phone-store"
+            demo="https://reactjs-mobile-store.netlify.com/"/>
       </div>
       <div className="col-md-4">
             <ProjectItem 
